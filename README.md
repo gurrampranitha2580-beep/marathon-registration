@@ -1,16 +1,102 @@
-# React + Vite
+# Marathon Registration Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive multi-step registration form built using React and Vite for managing marathon participant registrations. The application follows a clean corporate design while implementing validation, accessibility, loading states, empty states, analytics simulation, and secure input sanitization.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Multi-step registration workflow
+- Controlled React components
+- Custom regex-based validation
+- Review before final submission
+- Loading indicator during asynchronous submission
+- Empty state for participant list
+- XSS input sanitization
+- Simulated analytics logging
+- Responsive design
+- Accessible form controls
+- Monochromatic corporate UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/
+├── styles/
+├── utils/
+├── App.jsx
+└── main.jsx
+```
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+Navigate to the project
+
+```bash
+cd marathon-registration-form
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start development server
+
+```bash
+npm run dev
+```
+
+## Available Scripts
+
+Development server
+
+```bash
+npm run dev
+```
+
+Run ESLint
+
+```bash
+npm run lint
+```
+
+Production build
+
+```bash
+npm run build
+```
+
+## Key Functionalities
+
+- Multi-step registration process
+- Client-side validation using regular expressions
+- Review page before submission
+- Participant management
+- Empty state handling
+- Loading state during asynchronous operations
+- Analytics simulation
+- Secure input sanitization
+- Responsive layout for desktop, tablet, and mobile devices
+
+## Project Highlights
+
+- Built using reusable React components
+- Controlled form state management
+- Enterprise-inspired UI design
+- Accessibility-focused form controls
+- Edge case handling
+- Clean and maintainable code structure
