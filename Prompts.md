@@ -1,0 +1,16 @@
+
+- Read the Technical Requirements Document (TRD) and explain exactly what needs to be implemented.
+- How should I structure a multi-step React form to keep the code modular and maintainable?
+- Why should controlled components be used instead of uncontrolled components in this project?
+- What is the best approach to manage form state across multiple steps?
+- How can I implement custom validation without using external libraries?
+- Why is my application showing a blank white screen after integrating new components?
+- How can I debug an import/export error such as "does not provide a default export"?
+- Why is my component not rendering even though there are no build errors?
+- How should I implement loading and empty states to provide a better user experience?
+- What is the recommended way to sanitize user input before storing it in React state?
+- How can I improve the UI while keeping it simple, responsive, and suitable for a corporate application?
+- Why is a particular layout or button behaving differently on mobile devices, and how can I fix it without affecting the desktop view?
+- Review the implementation and identify any missing edge cases, validation scenarios, or accessibility issues.
+- Compare the implementation against the TRD and verify that every functional and non-functional requirement has been addressed.
+- Review the project before deployment and identify any improvements related to code quality, responsiveness, performance, or maintainability.
